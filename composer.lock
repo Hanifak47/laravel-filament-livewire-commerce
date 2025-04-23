@@ -421,7 +421,7 @@
                 "php": "^8.0"
             },
             "require-dev": {
-                "livewire/livewire": "^3.0",
+                "livewire/livewire": "3.5.12",
                 "livewire/volt": "^1.3",
                 "orchestra/testbench": "^7.0|^8.0|^9.0",
                 "phpunit/phpunit": "^9.0|^10.0"
@@ -1472,7 +1472,7 @@
                 "illuminate/contracts": "^10.0",
                 "illuminate/support": "^10.0",
                 "illuminate/view": "^10.0",
-                "livewire/livewire": "^3.2.3",
+                "livewire/livewire": "3.5.12",
                 "php": "^8.1",
                 "ryangjchandler/blade-capture-directive": "^0.2|^0.3",
                 "spatie/color": "^1.5",
@@ -3310,23 +3310,23 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.6.3",
+            "version": "v3.5.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "56aa1bb63a46e06181c56fa64717a7287e19115e"
+                "reference": "3c8d1f9d7d9098aaea663093ae168f2d5d2ae73d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/56aa1bb63a46e06181c56fa64717a7287e19115e",
-                "reference": "56aa1bb63a46e06181c56fa64717a7287e19115e",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/3c8d1f9d7d9098aaea663093ae168f2d5d2ae73d",
+                "reference": "3c8d1f9d7d9098aaea663093ae168f2d5d2ae73d",
                 "shasum": ""
             },
             "require": {
-                "illuminate/database": "^10.0|^11.0|^12.0",
-                "illuminate/routing": "^10.0|^11.0|^12.0",
-                "illuminate/support": "^10.0|^11.0|^12.0",
-                "illuminate/validation": "^10.0|^11.0|^12.0",
+                "illuminate/database": "^10.0|^11.0",
+                "illuminate/routing": "^10.0|^11.0",
+                "illuminate/support": "^10.0|^11.0",
+                "illuminate/validation": "^10.0|^11.0",
                 "laravel/prompts": "^0.1.24|^0.2|^0.3",
                 "league/mime-type-detection": "^1.9",
                 "php": "^8.1",
@@ -3335,11 +3335,11 @@
             },
             "require-dev": {
                 "calebporzio/sushi": "^2.1",
-                "laravel/framework": "^10.15.0|^11.0|^12.0",
+                "laravel/framework": "^10.15.0|^11.0",
                 "mockery/mockery": "^1.3.1",
-                "orchestra/testbench": "^8.21.0|^9.0|^10.0",
-                "orchestra/testbench-dusk": "^8.24|^9.1|^10.0",
-                "phpunit/phpunit": "^10.4|^11.5",
+                "orchestra/testbench": "^8.21.0|^9.0",
+                "orchestra/testbench-dusk": "^8.24|^9.1",
+                "phpunit/phpunit": "^10.4",
                 "psy/psysh": "^0.11.22|^0.12"
             },
             "type": "library",
@@ -3374,7 +3374,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.6.3"
+                "source": "https://github.com/livewire/livewire/tree/v3.5.12"
             },
             "funding": [
                 {
@@ -3382,7 +3382,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-12T22:26:52+00:00"
+            "time": "2024-10-15T19:35:06+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -9723,7 +9723,7 @@
                 "illuminate/broadcasting": "^10.0|^11.0|^12.0",
                 "illuminate/cache": "^10.0|^11.0|^12.0",
                 "illuminate/support": "^10.0|^11.0|^12.0",
-                "livewire/livewire": "^2.11|^3.5.20",
+                "livewire/livewire": "3.5.12",
                 "openai-php/client": "^0.10.1",
                 "orchestra/testbench": "8.22.3|^9.0|^10.0",
                 "pestphp/pest": "^2.20|^3.0",
@@ -9953,7 +9953,7 @@
                 "symfony/var-dumper": "^6.2.3|^7.0"
             },
             "require-dev": {
-                "livewire/livewire": "^2.11|^3.3.5",
+                "livewire/livewire": "3.5.12",
                 "mockery/mockery": "^1.5.1",
                 "openai-php/client": "^0.8.1|^0.10",
                 "orchestra/testbench": "8.22.3|^9.0|^10.0",
