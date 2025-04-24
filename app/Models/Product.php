@@ -10,7 +10,7 @@ class Product extends Model
     use HasFactory;
 
     protected $fillable =
-        ['category_id', 'brand_id', 'name', 'slug', 'description', 'price', 'is_active', 'is_featured', 'in_stock', 'on_sale'];
+        ['category_id', 'brand_id', 'name', 'slug', 'description', 'price', 'is_active', 'is_featured', 'in_stock', 'on_sale', 'images'];
 
     protected $casts = [
         'images' => 'array'

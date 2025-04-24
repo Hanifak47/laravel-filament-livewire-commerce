@@ -18,15 +18,25 @@ use Filament\Forms\Set;
 use Str;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Toggle;
+use Storage;
 
 class BrandResource extends Resource
 {
     protected static ?string $model = Brand::class;
 
+    // dd($model);
     protected static ?string $navigationIcon = 'heroicon-o-computer-desktop';
+
+    // $oldPath = $yourModel->image;
 
     public static function form(Form $form): Form
     {
+
+        // $oldpath = false;
+        // if ($form->getOperation() == 'edit') {
+        //     $oldpath = $form->model->getAttributes()['image'];
+        // }
+        // $oldpath = Brand::find($id);
         return $form
             ->schema([
                 Section::make([
@@ -50,7 +60,19 @@ class BrandResource extends Resource
 
                     FileUpload::make('image')
                         ->image()
-                        ->directory('brands'),
+                        ->directory('brands')
+
+                    // ->beforeSave(function ($request, $record, $form) use ($oldpath) {
+                    //     if ($request->image) {
+                    //         if ($oldpath) {
+                    //             Storage::disk('public')->delete($oldpath);
+                    //             // you need to customize this code if the path is not found
+                    //             // I don't really sure if you store the image in public or storage with symlink
+                    //         }
+                    //     }
+                    // })
+
+                    ,
 
                     Toggle::make('is_active')
                         ->required()
